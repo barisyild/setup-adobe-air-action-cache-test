@@ -12,4 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Adobe AIR SDK
-        uses: joshtynjala/setup-adobe-air-action@v2.2.0
+        uses: joshtynjala/setup-adobe-air-action@v2
+        with:
+          air-version: "51.0.1.4"
+          accept-license: true
